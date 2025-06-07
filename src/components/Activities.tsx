@@ -2,20 +2,21 @@
 const activities = [
   {
     title: "Trading & Investments",
-    description: "Options trading, long-term investing, and cryptocurrency markets",
+    description: "Options trading, long-term investing, cryptocurrency markets, and portfolio management",
     icon: "📈"
   },
   {
-    title: "Volleyball",
-    description: "Team sports and competitive play",
-    icon: "🏐"
+    title: "Tech Product Ideation",
+    description: "Designing and conceptualizing SaaS and consumer tech products addressing real-world problems",
+    icon: "💡"
   },
   {
-    title: "Badminton",
-    description: "Individual sports and fitness",
-    icon: "🏸"
+    title: "Entrepreneurial Exploration",
+    description: "Experimenting with business ideas in agri-tech, health-tech, and local commerce",
+    icon: "🚀"
   }
 ];
+
 
 const Activities = () => {
   return (
