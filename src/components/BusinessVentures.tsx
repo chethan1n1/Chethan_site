@@ -5,7 +5,7 @@ const ventures = [
   {
     title: "Mango Farm Management",
     description: "Agricultural technology and farm management solutions",
-    status: "Active",
+    status: "In progress",
     icon: "🥭"
   },
   {
@@ -42,8 +42,9 @@ const BusinessVentures = () => {
                   {venture.title}
                 </CardTitle>
                 <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${
-                  venture.status === 'Active' ? 'bg-green-100 text-green-800' :
-                  venture.status === 'Upcoming' ? 'bg-blue-100 text-blue-800' :
+                  venture.status === 'In Development' ? 'bg-violet-100 text-black-100':
+                  venture.status === 'In progress' ? 'bg-green-100 text-black-800' :
+                  venture.status === 'Upcoming' ? 'bg-blue-100 text-black-800' :
                   'bg-amber-100 text-amber-800'
                 }`}>
                   {venture.status}
