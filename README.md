@@ -32,7 +32,7 @@ To work with this code on your own machine:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/chethan1n1/chethan_portfolio.git
+git clone https://github.com/chethan1n1/Chethan_site.git
 
 # 2️⃣ Move into the project directory
 cd chethan_portfolio
