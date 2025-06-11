@@ -3,19 +3,19 @@ const experiences = [
   {
     title: "Data Science Intern",
     company: "Tietoevry",
-    period: "2024",
+    period: "2025",
     description: "Worked on data analytics and machine learning projects, contributing to enterprise-level data solutions."
   },
   {
     title: "Technology Intern",
     company: "Six Phrase | Veranda",
-    period: "2023-2024",
+    period: "2025",
     description: "Developed innovative solutions and gained experience in modern web technologies and data processing."
   },
   {
     title: "Software Development Intern",
     company: "Futurense Technologies",
-    period: "2023",
+    period: "2024",
     description: "Built scalable applications and worked with cutting-edge technologies in the fintech domain."
   }
 ];
