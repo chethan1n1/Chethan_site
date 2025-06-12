@@ -3,22 +3,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const ventures = [
   {
-    title: "Mango Farm Management",
-    description: "Agricultural technology and farm management solutions",
-    status: "In progress",
-    icon: "🥭"
+    title: "TenantVerify",
+    description: "Smart SaaS platform for owner-tenant rental agreements and tenant background checks.",
+    status: "In Development",
+    icon: "🏠"
   },
   {
-    title: "Patient Information System",
-    description: "Healthcare technology platform for patient data management",
+    title: "MEdCheck",
+    description: "Automated patient information and queue management system for clinics and hospitals.",
     status: "Upcoming",
     icon: "🏥"
   },
   {
-    title: "Virtual Clothing Try-On App",
-    description: "AR/AI-powered fashion technology application",
-    status: "In Development",
-    icon: "👔"
+    title: "3D Virtual Clothing Try-On",
+    description: "Mobile/web app for realistic 3D clothing try-ons using photogrammetry and AR.",
+    status: "Prototype",
+    icon: "🧥"
   }
 ];
 
