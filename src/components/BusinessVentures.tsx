@@ -11,13 +11,13 @@ const ventures = [
   {
     title: "MEdCheck",
     description: "Automated patient information and queue management system for clinics and hospitals.",
-    status: "Upcoming",
+    status: "Prototype",
     icon: "🏥"
   },
   {
     title: "3D Virtual Clothing Try-On",
     description: "Mobile/web app for realistic 3D clothing try-ons using photogrammetry and AR.",
-    status: "Prototype",
+    status: "Upcoming",
     icon: "🧥"
   }
 ];
