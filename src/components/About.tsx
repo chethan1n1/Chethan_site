@@ -37,7 +37,7 @@ const About = () => {
           <div className="lg:col-span-2 space-y-6">
             {/* Introduction Text */}
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-sm border border-gray-100">
-              <p className="text-base text-gray-700 leading-relaxed mb-4">
+              <p className="text-base text-gray-700 leading-relaxed mb-4 group-hover:text-amber-700 transition-colors duration-300">
                 I'm a <span className="font-semibold text-gray-900">Full-Stack Developer and Data Engineer</span> passionate about building innovative solutions 
                 that bridge complex technology with human needs. My journey spans AI-powered healthcare platforms, 
                 fintech applications, and scalable data systems.
@@ -51,15 +51,15 @@ const About = () => {
             
             {/* Compact Values */}
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <div className="w-6 h-6 bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg flex items-center justify-center">
+              <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2 group-hover:text-amber-600 transition-colors duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Sparkles className="h-3 w-3 text-white" />
                 </div>
                 Core Values
               </h3>
               <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <div className="w-4 h-4 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="flex items-start gap-3 group hover:bg-gradient-to-r hover:from-amber-50 hover:to-orange-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 rounded-xl p-2">
+                  <div className="w-4 h-4 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform duration-300">
                     <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
                   </div>
                   <div>
@@ -67,8 +67,8 @@ const About = () => {
                     <p className="text-xs text-gray-600 mt-0.5">Creating genuine value and meaningful impact</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-4 h-4 bg-gradient-to-r from-purple-500 to-violet-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="flex items-start gap-3 group hover:bg-gradient-to-r hover:from-purple-50 hover:to-violet-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 rounded-xl p-2">
+                  <div className="w-4 h-4 bg-gradient-to-r from-purple-500 to-violet-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform duration-300">
                     <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
                   </div>
                   <div>
@@ -76,8 +76,8 @@ const About = () => {
                     <p className="text-xs text-gray-600 mt-0.5">Building strong partnerships where ideas flourish</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-4 h-4 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="flex items-start gap-3 group hover:bg-gradient-to-r hover:from-teal-50 hover:to-cyan-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 rounded-xl p-2">
+                  <div className="w-4 h-4 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform duration-300">
                     <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
                   </div>
                   <div>
@@ -92,16 +92,16 @@ const About = () => {
           {/* Compact Expertise Areas */}
           <div className="lg:col-span-1 space-y-4">
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <div className="w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+              <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2 group-hover:text-blue-600 transition-colors duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Target className="h-3 w-3 text-white" />
                 </div>
                 Expertise
               </h3>
               <div className="space-y-3">
                 <div className="group p-3 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-100 hover:border-blue-200 transition-all duration-200">
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                  <div className="flex items-center gap-2 mb-1 group-hover:scale-105 transition-transform duration-300">
+                    <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:rotate-6 transition-transform duration-300">
                       <span className="text-white text-sm">🤖</span>
                     </div>
                     <div>
@@ -112,8 +112,8 @@ const About = () => {
                 </div>
                 
                 <div className="group p-3 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-100 hover:border-green-200 transition-all duration-200">
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                  <div className="flex items-center gap-2 mb-1 group-hover:scale-105 transition-transform duration-300">
+                    <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center group-hover:-rotate-6 transition-transform duration-300">
                       <span className="text-white text-sm">📊</span>
                     </div>
                     <div>
@@ -124,8 +124,8 @@ const About = () => {
                 </div>
                 
                 <div className="group p-3 bg-gradient-to-br from-purple-50 to-violet-50 rounded-lg border border-purple-100 hover:border-purple-200 transition-all duration-200">
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <div className="flex items-center gap-2 mb-1 group-hover:scale-105 transition-transform duration-300">
+                    <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center group-hover:rotate-6 transition-transform duration-300">
                       <span className="text-white text-sm">🌐</span>
                     </div>
                     <div>
@@ -136,8 +136,8 @@ const About = () => {
                 </div>
                 
                 <div className="group p-3 bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg border border-amber-100 hover:border-amber-200 transition-all duration-200">
-                  <div className="flex items-center gap-2 mb-1">
-                    <div className="w-8 h-8 bg-gradient-to-br from-amber-500 to-amber-600 rounded-lg flex items-center justify-center">
+                  <div className="flex items-center gap-2 mb-1 group-hover:scale-105 transition-transform duration-300">
+                    <div className="w-8 h-8 bg-gradient-to-br from-amber-500 to-amber-600 rounded-lg flex items-center justify-center group-hover:-rotate-6 transition-transform duration-300">
                       <span className="text-white text-sm">☁️</span>
                     </div>
                     <div>
