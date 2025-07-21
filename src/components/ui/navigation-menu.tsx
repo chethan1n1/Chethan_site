@@ -41,7 +41,11 @@ NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName
 const NavigationMenuItem = NavigationMenuPrimitive.Item
 
 const navigationMenuTriggerStyle = cva(
+<<<<<<< HEAD
   "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
+=======
+  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-all duration-300 hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
+>>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
 )
 
 const NavigationMenuTrigger = React.forwardRef<
@@ -54,10 +58,17 @@ const NavigationMenuTrigger = React.forwardRef<
     {...props}
   >
     {children}{" "}
+<<<<<<< HEAD
     <ChevronDown
       className="relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
       aria-hidden="true"
     />
+=======
+  <ChevronDown
+    className="relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180 group-hover:scale-125 group-hover:text-amber-500 group-data-[active]:scale-125 group-data-[active]:text-amber-600"
+    aria-hidden="true"
+  />
+>>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   </NavigationMenuPrimitive.Trigger>
 ))
 NavigationMenuTrigger.displayName = NavigationMenuPrimitive.Trigger.displayName
