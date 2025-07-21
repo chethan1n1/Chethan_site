@@ -7,7 +7,7 @@ const skillCategories = [
     icon: Code,
     skills: [
       { name: "Python", level: "Advanced", color: "from-blue-500 to-blue-600" },
-      { name: "JavaScript", level: "Advanced", color: "from-yellow-500 to-yellow-600" },
+      { name: "JavaScript", level: "Intermediate", color: "from-yellow-500 to-yellow-600" },
       { name: "SQL", level: "Advanced", color: "from-green-500 to-green-600" },
       { name: "Java", level: "Proficient", color: "from-red-500 to-red-600" },
       { name: "HTML/CSS", level: "Advanced", color: "from-orange-500 to-orange-600" }
@@ -22,8 +22,8 @@ const skillCategories = [
     icon: Brain,
     skills: [
       { name: "React", level: "Advanced", color: "from-cyan-500 to-cyan-600" },
-      { name: "Node.js", level: "Proficient", color: "from-green-500 to-green-600" },
-      { name: "Next.js", level: "Proficient", color: "from-gray-700 to-gray-800" },
+      { name: "Node.js", level: "Intermediate", color: "from-green-500 to-green-600" },
+      { name: "Next.js", level: "Intermediate", color: "from-gray-700 to-gray-800" },
       { name: "TypeScript", level: "Advanced", color: "from-blue-600 to-blue-700" },
       { name: "FastAPI", level: "Proficient", color: "from-emerald-500 to-emerald-600" }
     ],
@@ -36,7 +36,7 @@ const skillCategories = [
     category: "Tools & Platforms",
     icon: Wrench,
     skills: [
-      { name: "AWS", level: "Proficient", color: "from-orange-500 to-orange-600" },
+      { name: "AWS", level: "Intermediate", color: "from-orange-500 to-orange-600" },
       { name: "Docker", level: "Intermediate", color: "from-blue-600 to-blue-700" },
       { name: "Git", level: "Advanced", color: "from-red-500 to-red-600" },
       { name: "PostgreSQL", level: "Proficient", color: "from-blue-700 to-blue-800" },
@@ -92,7 +92,13 @@ const TechnicalSkills = () => {
                     {category.skills.map((skill, skillIndex) => (
                       <div key={skillIndex} className="flex items-center justify-between p-3 bg-white/80 rounded-lg border border-gray-100 hover:bg-white transition-all duration-200">
                         <span className="font-medium text-gray-900 text-sm">{skill.name}</span>
-                        <span className={`px-2 py-1 bg-gradient-to-r ${skill.color} text-white text-xs font-medium rounded-lg shadow-sm`}>
+                        <span
+                          className={`px-2 py-1 rounded-md text-sm font-medium
+                            ${skill.level === 'Advanced' ? 'bg-green-100 text-green-800' : ''}
+                            ${skill.level === 'Proficient' ? 'bg-yellow-100 text-yellow-800' : ''}
+                            ${skill.level === 'Intermediate' ? 'bg-sky-100 text-sky-800' : ''}
+                          `}
+                        >
                           {skill.level}
                         </span>
                       </div>
