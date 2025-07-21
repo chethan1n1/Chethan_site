@@ -85,7 +85,7 @@ const Hero = () => {
                 className="w-full sm:w-auto border-2 border-amber-300 text-amber-700 hover:bg-amber-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition-all duration-300 font-medium group"
                 size="lg"
               >
-                <a href="/lovable-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center w-full h-full">
+                <a href="/lovable-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center justify-center w-full h-full">
                   Download Resume
                   <Download className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-y-1 transition-transform duration-300" />
                 </a>
