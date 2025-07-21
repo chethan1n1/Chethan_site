@@ -1,20 +1,12 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-<<<<<<< HEAD
-
-const ventures = [
-=======
 import { Rocket, TrendingUp, DollarSign, Users, Building, Lightbulb, Home, Heart, Shirt } from "lucide-react";
 
 const topVentures = [
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   {
     title: "TenantVerify",
     description: "Smart SaaS platform for owner-tenant rental agreements and tenant background checks.",
     status: "In Development",
-<<<<<<< HEAD
-    icon: "🏠"
-=======
     icon: <Home className="h-6 w-6" />,
     gradient: "from-blue-500 to-blue-600",
     bgGradient: "from-blue-50 to-indigo-50",
@@ -23,15 +15,11 @@ const topVentures = [
       "Automated agreement generation",
       "Real-time verification system"
     ]
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   },
   {
     title: "MEdCheck",
     description: "Automated patient information and queue management system for clinics and hospitals.",
     status: "Prototype",
-<<<<<<< HEAD
-    icon: "🏥"
-=======
     icon: <Heart className="h-6 w-6" />,
     gradient: "from-green-500 to-green-600",
     bgGradient: "from-green-50 to-emerald-50",
@@ -40,15 +28,11 @@ const topVentures = [
       "Patient data streamlining",
       "Healthcare workflow optimization"
     ]
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   },
   {
     title: "3D Virtual Clothing Try-On",
     description: "Mobile/web app for realistic 3D clothing try-ons using photogrammetry and AR.",
     status: "Upcoming",
-<<<<<<< HEAD
-    icon: "🧥"
-=======
     icon: <Shirt className="h-6 w-6" />,
     gradient: "from-purple-500 to-purple-600",
     bgGradient: "from-purple-50 to-violet-50",
@@ -56,44 +40,11 @@ const topVentures = [
       "AR/VR integration",
       "3D photogrammetry technology"
     ]
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   }
 ];
 
 const BusinessVentures = () => {
   return (
-<<<<<<< HEAD
-    <section className="py-20 px-6 lg:px-12 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Business Ventures</h2>
-          <div className="w-24 h-1 bg-amber-400 mx-auto"></div>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          {ventures.map((venture, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gradient-to-br from-white to-gray-50">
-              <CardHeader className="text-center pb-4">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {venture.icon}
-                </div>
-                <CardTitle className="text-xl font-bold text-gray-900 mb-2">
-                  {venture.title}
-                </CardTitle>
-                <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${
-                  venture.status === 'In Development' ? 'bg-violet-100 text-black-100':
-                  venture.status === 'In progress' ? 'bg-green-100 text-black-800' :
-                  venture.status === 'Upcoming' ? 'bg-blue-100 text-black-800' :
-                  'bg-amber-100 text-amber-800'
-                }`}>
-                  {venture.status}
-                </span>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-gray-700 text-center leading-relaxed">
-                  {venture.description}
-                </CardDescription>
-=======
     <section className="py-12 px-6 lg:px-12 bg-gradient-to-br from-white via-gray-50/30 to-slate-100/20 relative overflow-hidden">
       {/* Minimal Background Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.04)_0%,transparent_70%)]"></div>
@@ -114,14 +65,12 @@ const BusinessVentures = () => {
             Transforming innovative ideas into impactful technology solutions
           </p>
         </div>
-        
         {/* Compact Ventures Grid */}
         <div className="grid lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {topVentures.map((venture, index) => (
             <Card key={index} className="group relative overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md bg-white/90 backdrop-blur-sm">
               {/* Minimal Gradient Overlay */}
               <div className={`absolute inset-0 bg-gradient-to-br ${venture.bgGradient} opacity-0 group-hover:opacity-40 transition-opacity duration-300`}></div>
-              
               <CardHeader className="pb-3 relative z-10">
                 <div className="flex items-center gap-4 mb-3">
                   <div className={`w-10 h-10 bg-gradient-to-br ${venture.gradient} rounded-xl flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform duration-300`}>
@@ -142,31 +91,17 @@ const BusinessVentures = () => {
                   </div>
                 </div>
               </CardHeader>
-              
               <CardContent className="relative z-10 pt-0">
-                <CardDescription className="text-gray-700 leading-relaxed mb-4 text-sm">
-                  {venture.description}
-                </CardDescription>
-                
-                {/* Compact Highlights */}
-                <div className="space-y-2">
-                  <ul className="space-y-1">
-                    {venture.highlights.slice(0, 2).map((highlight, highlightIndex) => (
-                      <li key={highlightIndex} className="flex items-center gap-2 text-gray-600">
-                        <div className="w-1.5 h-1.5 bg-gradient-to-r from-blue-400 to-blue-500 rounded-full flex-shrink-0"></div>
-                        <span className="text-xs font-medium">{highlight}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
+                <p className="text-gray-700 text-sm mb-3">{venture.description}</p>
+                <ul className="list-disc pl-5 text-xs text-gray-500 space-y-1">
+                  {venture.highlights.map((highlight, i) => (
+                    <li key={i}>{highlight}</li>
+                  ))}
+                </ul>
               </CardContent>
             </Card>
           ))}
         </div>
-<<<<<<< HEAD
-=======
-        
         {/* Compact Footer */}
         <div className="text-center mt-8">
           <div className="bg-white/60 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-100">
@@ -180,7 +115,6 @@ const BusinessVentures = () => {
             </div>
           </div>
         </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
       </div>
     </section>
   );

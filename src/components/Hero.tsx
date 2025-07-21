@@ -1,9 +1,5 @@
 import { Button } from "@/components/ui/button";
-<<<<<<< HEAD
-import { ArrowRight } from "lucide-react";
-=======
 import { ArrowRight, Download, MapPin, Sparkles } from "lucide-react";
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
 
 const Hero = () => {
   const handleConnectClick = () => {
@@ -14,48 +10,11 @@ const Hero = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-12 bg-white">
-      <div className="max-w-6xl mx-auto w-full">
-        
-        {/* Mobile Layout */}
-        <div className="block lg:hidden text-center space-y-8">
-          <div className="flex justify-center">
-            <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-100 border border-gray-200">
-              <img 
-                src="/lovable-uploads/0b29fe31-3455-4f86-a339-17102fedd27f.png"
-                alt="Chethan Yallampalli"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-light text-gray-900 leading-tight tracking-tight">
-            Chethan
-            <br />
-            Yallampalli
-          </h1>
-          <p className="text-amber-600 font-medium text-base sm:text-lg tracking-wide uppercase">
-            Data Engineering Professional
-          </p>
-          <p className="text-lg sm:text-xl text-gray-600 font-light leading-relaxed px-4">
-            Building scalable digital products that simplify lives through AI-powered insights and ethical technology.
-          </p>
-          <Button 
-            onClick={handleConnectClick}
-            variant="outline" 
-            className="border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-3 rounded-none transition-all duration-300 font-medium"
-            size="lg"
-          >
-            Let's Connect
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-=======
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-12 bg-gradient-to-br from-white via-slate-50/30 to-amber-50/20 relative overflow-hidden">
       {/* Enhanced Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(251,191,36,0.1)_0%,transparent_50%)]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_75%,rgba(59,130,246,0.1)_0%,transparent_50%)]"></div>
-      
       {/* Enhanced Floating Elements */}
       <div className="absolute top-10 left-10 w-20 h-20 bg-gradient-to-br from-amber-200/20 to-orange-300/20 rounded-full blur-xl animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-16 h-16 bg-gradient-to-br from-blue-200/20 to-purple-300/20 rounded-full blur-xl"></div>
@@ -126,57 +85,17 @@ const Hero = () => {
                 className="w-full sm:w-auto border-2 border-amber-300 text-amber-700 hover:bg-amber-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition-all duration-300 font-medium group"
                 size="lg"
               >
-                <a href="/C__Copy_.pdf" download className="flex items-center w-full h-full">
+                <a href="/lovable-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center w-full h-full">
                   Download Resume
                   <Download className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-y-1 transition-transform duration-300" />
                 </a>
               </Button>
             </div>
           </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
         </div>
 
         {/* Desktop Layout */}
         <div className="hidden lg:block">
-<<<<<<< HEAD
-          <div className="flex items-center justify-center gap-16 lg:gap-24 mb-16">
-            <div className="text-left">
-              <h1 className="text-6xl lg:text-7xl font-light text-gray-900 leading-tight tracking-tight">
-                Chethan
-                <br />
-                Yallampalli
-              </h1>
-            </div>
-            <div className="flex-shrink-0">
-              <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-gray-100 border border-gray-200">
-                <img 
-                  src="/lovable-uploads/0b29fe31-3455-4f86-a339-17102fedd27f.png"
-                  alt="Chethan Yallampalli"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="text-center space-y-8">
-            <p className="text-amber-600 font-medium text-lg tracking-wide uppercase">
-              Data Engineering Professional
-            </p>
-            <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
-              Building scalable digital products that simplify lives through AI-powered insights and ethical technology.
-            </p>
-            <Button 
-              onClick={handleConnectClick}
-              variant="outline" 
-              className="border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-3 rounded-none transition-all duration-300 font-medium"
-              size="lg"
-            >
-              Let's Connect
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </div>
-        </div>
-
-=======
           <div className="flex items-center justify-between gap-16 xl:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-6">
@@ -217,7 +136,7 @@ const Hero = () => {
                     className="border-2 border-amber-300 text-amber-700 hover:bg-amber-50 px-10 py-4 rounded-xl transition-all duration-300 font-medium group"
                     size="lg"
                   >
-                    <a href="/C__Copy_.pdf" download className="flex items-center w-full h-full">
+                    <a href="/lovable-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center w-full h-full">
                       Download Resume
                       <Download className="ml-3 h-6 w-6 group-hover:translate-y-1 transition-transform duration-300" />
                     </a>
@@ -247,14 +166,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
       </div>
     </section>
   );
-};
+}
 
-<<<<<<< HEAD
 export default Hero;
-=======
-export default Hero;
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)

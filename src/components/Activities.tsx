@@ -1,46 +1,5 @@
 
-<<<<<<< HEAD
-const activities = [
-  {
-    title: "Trading & Investments",
-    description: "Options trading, long-term investing, cryptocurrency markets, and portfolio management",
-    icon: "📈"
-  },
-  {
-    title: "Tech Product Ideation",
-    description: "Designing and conceptualizing SaaS and consumer tech products addressing real-world problems",
-    icon: "💡"
-  },
-  {
-    title: "Entrepreneurial Exploration",
-    description: "Experimenting with business ideas in agri-tech, health-tech, and local commerce",
-    icon: "🚀"
-  }
-];
-
-
-const Activities = () => {
-  return (
-    <section className="py-20 px-6 lg:px-12 bg-gradient-to-br from-gray-50 to-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Extra-Curricular Activities</h2>
-          <div className="w-24 h-1 bg-amber-400 mx-auto"></div>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          {activities.map((activity, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 text-center group">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                {activity.icon}
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{activity.title}</h3>
-              <p className="text-gray-700">{activity.description}</p>
-            </div>
-          ))}
-        </div>
-=======
-import { TrendingUp, Lightbulb, Rocket, Book, Music, Dumbbell, Globe, Camera } from "lucide-react";
+import { TrendingUp, Lightbulb, Rocket } from "lucide-react";
 
 const activities = [
   {
@@ -68,7 +27,6 @@ const Activities = () => {
     <section className="py-12 px-6 lg:px-12 bg-gradient-to-br from-white via-gray-50/30 to-slate-100/20 relative overflow-hidden">
       {/* Minimal Background Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(139,69,19,0.04)_0%,transparent_70%)]"></div>
-      
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Compact Header Section */}
         <div className="text-center mb-10">
@@ -84,7 +42,6 @@ const Activities = () => {
             Exploring diverse interests that fuel creativity and innovation
           </p>
         </div>
-        
         {/* Compact Activities Grid */}
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {activities.map((activity, index) => (
@@ -103,7 +60,6 @@ const Activities = () => {
             </div>
           ))}
         </div>
-        
         {/* Compact Footer */}
         <div className="text-center">
           <div className="bg-white/60 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-gray-100">
@@ -117,10 +73,11 @@ const Activities = () => {
             </div>
           </div>
         </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
       </div>
     </section>
   );
 };
 
 export default Activities;
+
+

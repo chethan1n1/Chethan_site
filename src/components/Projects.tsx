@@ -1,22 +1,4 @@
 
-<<<<<<< HEAD
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-
-const projects = [
-  {
-    title: "SCAJ Cloud Security Services",
-    description: "Advanced encryption algorithm with PSA architecture",
-    details: "Developed a comprehensive cloud security solution with custom encryption algorithms. Submitted to IEEE Xplore for publication.",
-    tech: ["Python", "Cryptography", "Cloud Computing", "Security"],
-    status: "IEEE Xplore Submission"
-  },
-  {
-    title: "Banking App with Finance Management",
-    description: "Full-stack financial application with modern tech stack",
-    details: "Built a comprehensive banking application featuring account management, transaction tracking, and financial insights using modern web technologies.",
-    tech: ["Next.js", "TypeScript", "Plaid API", "React"],
-    status: "Production Ready"
-=======
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
@@ -58,58 +40,16 @@ const projects = [
     tech: ["Next.js", "TypeScript", "Plaid API", "React"],
     status: "Production Ready",
     highlight: "Secure financial platform"
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   }
 ];
 
 const Projects = () => {
   return (
-<<<<<<< HEAD
-    <section className="py-20 px-6 lg:px-12 bg-gradient-to-br from-gray-50 to-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Key Projects</h2>
-          <div className="w-24 h-1 bg-amber-400 mx-auto"></div>
-        </div>
-        
-        <div className="grid lg:grid-cols-2 gap-8">
-          {projects.map((project, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 shadow-lg">
-              <CardHeader className="pb-4">
-                <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors">
-                    {project.title}
-                  </CardTitle>
-                  <span className="text-xs font-semibold bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
-                    {project.status}
-                  </span>
-                </div>
-                <CardDescription className="text-gray-600 font-medium">
-                  {project.description}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-700 mb-6 leading-relaxed">{project.details}</p>
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech, techIndex) => (
-                    <span 
-                      key={techIndex}
-                      className="text-sm bg-gray-100 text-gray-800 px-3 py-1 rounded-lg font-medium hover:bg-amber-100 hover:text-amber-800 transition-colors"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-=======
     <section id="projects" className="py-12 px-6 lg:px-12 bg-gradient-to-br from-slate-50 via-white to-amber-50/30 relative overflow-hidden">
       {/* Minimal Background Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.06)_0%,transparent_70%)]"></div>
       <div className="absolute top-20 left-20 w-40 h-40 bg-gradient-to-br from-amber-200/15 to-orange-300/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-20 w-32 h-32 bg-gradient-to-br from-blue-200/15 to-purple-300/10 rounded-full blur-3xl"></div>
-      
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Compact Header Section */}
         <div className="text-center mb-10">
@@ -126,8 +66,7 @@ const Projects = () => {
           <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Innovative solutions across healthcare, fintech, and web technologies
           </p>
-                </div>
-        
+        </div>
         {/* Compact Projects Grid */}
         <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
           {projects.map((project, index) => (
@@ -144,7 +83,6 @@ const Projects = () => {
                     <p className="text-sm text-gray-600 mb-3 leading-relaxed">
                       {project.description}
                     </p>
-                    
                     {/* Status Badge */}
                     <div className="inline-flex items-center gap-2 mb-4">
                       <span className="px-3 py-1 bg-amber-50 text-amber-700 text-xs font-medium rounded-lg border border-amber-200">
@@ -156,7 +94,6 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-                
                 {/* Tech Stack */}
                 <div className="mb-4">
                   <div className="flex flex-wrap gap-2">
@@ -175,7 +112,6 @@ const Projects = () => {
                     )}
                   </div>
                 </div>
-                
                 {/* Project Links */}
                 {project.links && (
                   <div className="flex flex-wrap gap-2">
@@ -201,16 +137,14 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        
         {/* Compact Footer */}
         <div className="text-center mt-10">
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-gray-100 max-w-3xl mx-auto">
             <p className="text-sm text-gray-600 leading-relaxed">
               Each project reflects my commitment to creating innovative, user-focused solutions.
             </p>
-          </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
-        </div>
+  </div>
+</div>
       </div>
     </section>
   );

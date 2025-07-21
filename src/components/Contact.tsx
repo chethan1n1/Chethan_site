@@ -1,14 +1,6 @@
 
-import { Button } from "@/components/ui/button";
-<<<<<<< HEAD
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
-const contactLinks = [
-   {
-    label: "Phone",
-    href: "tel:+91 9550362819",
-    icon: Phone
-=======
+import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone, MapPin, Send, MessageCircle, Coffee } from "lucide-react";
 
 const contactLinks = [
@@ -20,57 +12,28 @@ const contactLinks = [
     description: "Call for urgent matters",
     gradient: "from-green-500 to-green-600",
     bgGradient: "from-green-50 to-emerald-50"
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   },
   {
     label: "Email",
     href: "mailto:chethan111@icloud.com",
-<<<<<<< HEAD
-    icon: Mail
-=======
     value: "chethan111@icloud.com",
     icon: Mail,
     description: "Best for detailed discussions",
     gradient: "from-blue-500 to-blue-600",
     bgGradient: "from-blue-50 to-indigo-50"
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/chethan-yallampalli-b82681236",
-<<<<<<< HEAD
-    icon: Linkedin
-=======
     value: "Connect professionally",
     icon: Linkedin,
     description: "Professional networking",
     gradient: "from-blue-600 to-blue-700",
     bgGradient: "from-blue-50 to-blue-100"
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
   },
   {
     label: "GitHub",
     href: "https://github.com/chethan1n1",
-<<<<<<< HEAD
-    icon: Github
-  }
-];
-
-const Contact = () => {
-  return (
-    <section id="contact" className="py-24 px-6 lg:px-12 bg-white">
-      <div className="max-w-6xl mx-auto">
-        <div className="mb-16">
-          <h2 className="text-4xl lg:text-5xl font-light text-gray-900 mb-8 tracking-tight">Contact</h2>
-          <div className="w-16 h-px bg-amber-500"></div>
-          <p className="text-xl text-gray-600 font-light mt-8 max-w-2xl">
-            Ready to build something amazing together? Reach out and let's discuss how we can create 
-            impactful digital solutions.
-          </p>
-        </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-=======
     value: "View my repositories",
     icon: Github,
     description: "Code collaboration",
@@ -107,7 +70,6 @@ const Contact = () => {
           <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Ready to build something amazing together? Let's discuss new opportunities and collaborations.
           </p>
-          
           {/* Compact Quick Info */}
           <div className="flex flex-wrap justify-center gap-4 text-gray-600 mt-6">
             {quickInfo.map((info, index) => (
@@ -119,10 +81,8 @@ const Contact = () => {
             ))}
           </div>
         </div>
-
         {/* Compact Contact Methods */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
           {contactLinks.map((link, index) => {
             const IconComponent = link.icon;
             return (
@@ -131,48 +91,28 @@ const Contact = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-<<<<<<< HEAD
-                className="group p-6 border border-gray-200 hover:border-amber-500 transition-all duration-300"
-              >
-                <div className="flex flex-col">
-                  <IconComponent className="h-6 w-6 text-gray-600 group-hover:text-amber-500 mb-4 transition-colors duration-300" />
-                  <h3 className="font-medium text-gray-900 mb-2">{link.label}</h3>
-                  <p className="text-sm text-gray-600 break-all">{link.value}</p>
-=======
                 className="group relative overflow-hidden bg-white/90 backdrop-blur-sm rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-amber-200/50"
               >
                 {/* Compact Gradient Overlay */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${link.bgGradient} opacity-0 group-hover:opacity-50 transition-opacity duration-300`}></div>
-                
                 <div className="relative z-10 p-6 text-center">
                   <div className={`w-12 h-12 bg-gradient-to-br ${link.gradient} rounded-2xl flex items-center justify-center text-white mx-auto mb-4 shadow-lg group-hover:scale-105 transition-transform duration-300`}>
                     <IconComponent className="h-6 w-6" />
                   </div>
-                  
                   <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors duration-300">
                     {link.label}
                   </h3>
-                  
                   <p className="text-xs text-gray-500 mb-3 font-medium">
                     {link.description}
                   </p>
-                  
                   <p className="text-sm text-gray-700 font-medium break-all">
                     {link.value}
                   </p>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
                 </div>
               </a>
             );
           })}
         </div>
-        
-<<<<<<< HEAD
-        <div className="text-center mt-16 pt-8 border-t border-gray-200">
-          <p className="text-gray-600 font-light">
-            © 2025 Chethan Yallampalli. Built with passion for technology and innovation.
-          </p>
-=======
         {/* Compact Call to Action */}
         <div className="text-center mb-10">
           <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden max-w-4xl mx-auto">
@@ -182,7 +122,6 @@ const Contact = () => {
               <p className="text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
                 Whether you have a project in mind or want to discuss opportunities, I'd love to hear from you.
               </p>
-              
               <div className="flex flex-wrap justify-center gap-4">
                 <a
                   href="mailto:chethan111@icloud.com"
@@ -204,7 +143,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        
         {/* Compact Footer */}
         <div className="text-center pt-8 border-t border-gray-200">
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-gray-100">
@@ -217,7 +155,6 @@ const Contact = () => {
               <div className="w-8 h-0.5 bg-gray-300"></div>
             </div>
           </div>
->>>>>>> b866b84 (Update navigation, resume download, and UI improvements)
         </div>
       </div>
     </section>
