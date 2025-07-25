@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="relative group">
               <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 border-4 border-white shadow-xl group-hover:shadow-2xl transition-all duration-500">
                 <img 
-                  src="/chethan-uploads/0b29fe31-3455-4f86-a339-17102fedd27f.png"
+                  src="/chethan-uploads/x.jpg"
                   alt="Chethan Yallampalli"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -149,7 +149,7 @@ const Hero = () => {
               <div className="relative group">
                 <div className="w-72 h-72 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 border-4 border-white shadow-2xl group-hover:shadow-3xl transition-all duration-700">
                   <img 
-                    src="/chethan-uploads/0b29fe31-3455-4f86-a339-17102fedd27f.png"
+                    src="/chethan-uploads/x.jpg"
                     alt="Chethan Yallampalli"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
