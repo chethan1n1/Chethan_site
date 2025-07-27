@@ -150,34 +150,6 @@ const About = () => {
             </div>
           </div>
         </div>
-         {/* Compact Call to Action */}
-        <div className="mt-10">
-          <div className="bg-white/90 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-gray-100 max-w-4xl mx-auto text-center">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Let's Build Something Amazing Together
-            </h3>
-            <p className="text-sm text-gray-600 mb-6 leading-relaxed">
-              I'm always excited to collaborate on projects that create meaningful impact.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-              <button 
-                onClick={handleStartConversation}
-                className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-2"
-              >
-                <span>Start a Conversation</span>
-                <ArrowRight className="h-4 w-4" />
-              </button>
-              <button 
-                onClick={handleViewWork}
-                className="bg-white text-gray-700 px-6 py-3 rounded-xl font-semibold border border-gray-300 hover:border-amber-300 hover:bg-amber-50 transition-all duration-300 hover:scale-105 flex items-center gap-2"
-              >
-                <span>View My Work</span>
-                <Target className="h-4 w-4" />
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
