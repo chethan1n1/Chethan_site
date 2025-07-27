@@ -113,36 +113,6 @@ const Contact = () => {
             );
           })}
         </div>
-        {/* Compact Call to Action */}
-        <div className="text-center mb-10">
-          <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-gray-100 relative overflow-hidden max-w-4xl mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-50/40 to-blue-50/20 opacity-60"></div>
-            <div className="relative z-10">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Ready to Start a Conversation?</h3>
-              <p className="text-base text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
-                Whether you have a project in mind or want to discuss opportunities, I'd love to hear from you.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <a
-                  href="mailto:chethan111@icloud.com"
-                  className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 hover:scale-105 shadow-lg"
-                >
-                  <Send className="h-4 w-4" />
-                  Send an Email
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/chethan-yallampalli-b82681236"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-50 transition-all duration-300 hover:scale-105 border border-blue-200 shadow-lg"
-                >
-                  <Linkedin className="h-4 w-4" />
-                  Connect on LinkedIn
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* Compact Footer */}
         <div className="text-center pt-8 border-t border-gray-200">
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg border border-gray-100">
