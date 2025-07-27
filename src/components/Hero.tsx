@@ -136,7 +136,7 @@ const Hero = () => {
                     className="border-2 border-amber-300 text-amber-700 hover:bg-amber-50 px-10 py-4 rounded-xl transition-all duration-300 font-medium group"
                     size="lg"
                   >
-                    <a href="/lovable-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center w-full h-full">
+                    <a href="/chethan-uploads/C__Copy_.pdf" download="Chethan_Yallampalli_Resume.pdf" type="application/pdf" className="flex items-center w-full h-full">
                       Download Resume
                       <Download className="ml-3 h-6 w-6 group-hover:translate-y-1 transition-transform duration-300" />
                     </a>
