@@ -14,6 +14,18 @@ const projects = [
     ]
   },
   {
+    title: "📄 CVue: AI Resume Analyzer",
+    description: "AI-powered resume analyzer with smart feedback and tracking",
+    details: "CVue is an AI-powered resume analyzer that provides smart ATS feedback, resume scoring, and job application tracking. Built with OpenAI’s GPT API, PDF parsing, and a modern UI to help users optimize their resumes and track job applications. Includes suggested improvements, application history, and AI-generated reply assistance.",
+    tech: ["Next.js", "Tailwind", "TypeScript", "OpenAI", "Node.js"],
+    status: "Live",
+    highlight: "AI-powered resume insights",
+    links: [
+      { type: "github", url: "https://github.com/chethan1n1/Cvue-resume-analyser", label: "GitHub Repository" },
+      { type: "external", url: "https://cvue-resume-analyser.vercel.app", label: "Live App" }
+    ]
+  },
+  {
     title: "🌐 Portfolio Website",
     description: "Modern portfolio showcasing technical expertise and projects",
     details: "Professional portfolio website built with cutting-edge web technologies, featuring advanced animations, responsive design, and optimized performance. Showcases full-stack development capabilities, data engineering projects, and SaaS prototypes with clean, modern UI/UX design principles.",
