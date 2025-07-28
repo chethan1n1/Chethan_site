@@ -43,7 +43,10 @@ const projects = [
     details: "Comprehensive cloud security solution featuring custom encryption algorithms and PSA (Platform Security Architecture) implementation. Developed novel security protocols for cloud-based applications with focus on data protection and secure communications. Research submitted to IEEE Xplore for publication.",
     tech: ["Python", "Cryptography", "Cloud Computing", "Security"],
     status: "IEEE Xplore Submission",
-    highlight: "Research-grade security"
+    highlight: "Research-grade security",
+    links: [
+      { type: "external",url: "/chethan-uploads/SCAJ.pdf",label: "📄 View Document"}
+    ]
   },
   {
     title: "💳 Banking App with Finance Management",
