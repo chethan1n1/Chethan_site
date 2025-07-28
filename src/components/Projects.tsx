@@ -45,7 +45,7 @@ const projects = [
     status: "IEEE Xplore Submission",
     highlight: "Research-grade security",
     links: [
-      { type: "external",url: "/chethan-uploads/SCAJ.pdf",label: "📄 View Document"}
+      { type: "external",url: "/chethan-uploads/SCAJ.pdf",label: "View Document"}
     ]
   },
   {
